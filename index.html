@@ -37,9 +37,8 @@
 <body>
     <header class="max-w-screen-lg m-auto">
  <!-- start nav bar -->
-<nav>
-  <div class="navbar bg-base-100">
-
+<nav class="mb-4">
+  <div class="navbar bg-base-100 flex-wrap md:flex-wrap lg:flex-row">
     <div class="flex-1">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -65,7 +64,7 @@
     </div>
 
     <div class="">
-      <a class="btn btn-error">Login</a>
+      <a class="btn btn-error text-[#ffffff]">Login</a>
     </div>
   </div>
 </nav>
@@ -161,9 +160,9 @@
       </div>
 
         <div class="flex justify-around items-center">
-          <div><img src="others/feature-bike.png" alt=""></div>
-          <div><img src="others/feature-bike.png" alt=""></div>
-          <div><img src="others/feature-bike.png" alt=""></div>
+          <div><img src="others/biker (1).png" alt=""></div>
+          <div><img src="others/biker (2).png" alt=""></div>
+          <div><img src="others/biker (3).png" alt=""></div>
         </div>
  </section>
       <!-- Fetured Bikes section ENd-->
@@ -353,14 +352,14 @@ know about riding a bike?
     </main>
     <footer class="bg-[#0B0D17]">
       <div class="max-w-screen-lg m-auto mt-32 py-20">
-      <div class="flex flex-col text-center md:flex-col lg:flex-row items-center justify-between">
+      <div class="flex flex-col justify-center lg:text-left md:text-center md:flex-col lg:flex-row md:items-center lg:justify-between">
         <div class="space-y-5">
-          <div class="text-[#ffffff] flex gap-6 text-base justify-center md:justify-center lg:justify-left">
+          <div class="text-[#ffffff] space-x-5 text-center md:text-center lg:text-left">
             <a class="">Download Now</a> 
             <a class="">License</a> 
           </div>
 
-          <div class="text-[#ffffff] flex gap-6 text-base">
+          <div class="text-[#ffffff] flex flex-wrap gap-6 text-base text-center md:text-center lg:text-left justify-center md:justify-center lg:justify-left">
             <a class="link link-hover">About</a> 
             <a class="link link-hover">Features</a> 
             <a class="link link-hover">Pricing</a>
@@ -369,18 +368,22 @@ know about riding a bike?
             <a class="link link-hover">Privacy Policy</a>
           </div>
 
-          <div class="text-[#ffffff] text-sm ">
+          <div class="text-[#ffffff] text-sm text-center md:text-center lg:text-left">
             <p class="mt-10">
               © 2020 bike. All rights reserved
             </p>
           </div>
         </div>
 
-          <div class="text-[#ffffff]">
-            <span class="text-base ">Get the App</span> 
-            <div class=" w-32">
-              <a><img class="mt-2" src="others/ios.png" alt=""></a>
-              <a><img class="mt-2" src="others/android.png" alt=""></a>
+          <div class="text-[#ffffff] text-center md:text-center lg:text-left">
+            <span class="text-base">Get the App</span> 
+            <div class=" w-full lg:w-32 md:w-full  ">
+              <a class=" flex justify-center ">
+                <img class=" flex mt-2 items-center" src="others/ios.png" alt="">
+              </a>
+              <a class="flex justify-center">
+                <img class="mt-2" src="others/android.png" alt="">
+              </a>
             </div>
           </div>
       </div> 
